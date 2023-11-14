@@ -46,3 +46,16 @@ font-size: 60px;
     align-content: stretch;
     overflow: scroll; 
 }
+
+/* media queries for responsiveness */
+
+@media only screen and (max-width: 768px) {
+    #main {
+        font-size: 40px;
+    }
+    .recents-container,
+    .panel {
+        width: 100%;
+        float: none;
+    }
+}

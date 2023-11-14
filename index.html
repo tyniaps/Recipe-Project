@@ -77,7 +77,8 @@
     </p>
     <div class="panel-block">
       <p class="control has-icons-left">
-        <input class="input" type="text" placeholder="Search">
+        <input class="input" id="inputName" type="text" placeholder="">
+       <button class="button is-light" id = "button">Search</button>
         <span class="icon is-left">
           <i class="fas fa-search" aria-hidden="true"></i>
         </span>
@@ -90,11 +91,11 @@
         <div class= "recents-container"> <!--parent-->
             <article class="tile is-child box">
               <div class="content">
-                <p class="title" id="rec-cont-title">Recently Viewed</p>
+                <p class="title" id="rec-cont-title"></p>
                 <div class="content">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut. Morbi maximus, leo sit amet vehicula eleifend, nunc dui porta orci, quis semper odio felis ut quam.</p>
-                  <p>Suspendisse varius ligula in molestie lacinia. Maecenas varius eget ligula a sagittis. Pellentesque interdum, nisl nec interdum maximus, augue diam porttitor lorem, et sollicitudin felis neque sit amet erat. Maecenas imperdiet felis nisi, fringilla luctus felis hendrerit sit amet. Aenean vitae gravida diam, finibus dignissim turpis. Sed eget varius ligula, at volutpat tortor.</p>
-                  <p>Integer sollicitudin, tortor a mattis commodo, velit urna rhoncus erat, vitae congue lectus dolor consequat libero. Donec leo ligula, maximus et pellentesque sed, gravida a metus. Cras ullamcorper a nunc ac porta. Aliquam ut aliquet lacus, quis faucibus libero. Quisque non semper leo.</p>
+                    <button id="generateButton" class="button is-primary custom-width">Cocktail Generator</button>
+                    <div id="cocktail"></div>
+                    <div id="overlay"></div>
                 </div>
               </div>
             </article>
@@ -104,13 +105,30 @@
         <div class="tile is-parent is-8" id="search-results">
             <article class="tile is-child box">
               <p class="title"></p>
-              <p class="subtitle">(search results to appear here)</p>
-              <div class="content">
-                
-              </div>
+              <div id="msg">
+                <h3>We cannot find that , Please enter something else.</h3>
+            </div>
+              <!-- <p class="subtitle">(search results to appear here)</p> -->
+               <div id="msg">
+        <h3>We Don't have the food you gave us. Please order something else if you want .......</h3>
+    </div>
+
+    <div id="details" >
+
+    </div>
+
+    <div id="items">
+
+    </div>
+
+
             </article>
           </div>
         </div>
-    
+        
+        <script
+        src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script src="./assets/js/script.js"></script>
+        <!-- <script src="./Assets/JS/search.js"></script> -->
 </body>
 </html>

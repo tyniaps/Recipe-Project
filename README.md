@@ -1,4 +1,5 @@
-# Recipe-Project: "Dine in Delights" (Group Project 1)
+# Recipe-Project: "Dine in Delights" 
+## (Group Project 1)
 
 ## Description
 "Dine in Delights" is a front end web-application concept which has been designed for food and cocktail enthusiasts. The web application allows the user to replicate restaurant experiences in the comfort of their homes.
@@ -34,7 +35,7 @@ HTML5, CSS3, Bulma CSS Framework, JavaScript, VS Code and GitHub.
 
 ## Screenshot
 
-![Screenshot (1)](https://github.com/tyniaps/Recipe-Project/assets/145250486/8e9c62fc-69da-4338-acdb-d605f9bf7b45)
+![Screenshot (1)](https://github.com/tyniaps/Recipe-Project/assets/145250486/b121591b-7997-462e-80f1-f9edb2c1578f)
 
 ## Link to Deployed Application
 

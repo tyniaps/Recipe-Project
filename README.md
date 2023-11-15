@@ -34,8 +34,7 @@ HTML5, CSS3, Bulma CSS Framework, JavaScript, VS Code and GitHub.
 
 ## Screenshot
 
-"C:\Users\tyssp\OneDrive\Pictures\Screenshots\Screenshot (1).png"
-
+![Screenshot (1)](https://github.com/tyniaps/Recipe-Project/assets/145250486/8e9c62fc-69da-4338-acdb-d605f9bf7b45)
 
 ## Link to Deployed Application
 

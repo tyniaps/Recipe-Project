@@ -83,35 +83,18 @@
           <i class="fas fa-search" aria-hidden="true"></i>
         </span>
     </nav>
-    <main></main>
-       
- 
-        </main>
 
-        <div class= "recents-container"> <!--parent-->
-            <article class="tile is-child box">
-              <div class="content">
-                <p class="title" id="rec-cont-title"></p>
-                <div class="content">
-                    <button id="generateButton" class="button is-primary custom-width">Cocktail Generator</button>
-                    <div id="cocktail"></div>
-                    <div id="overlay"></div>
-                </div>
-              </div>
-            </article>
-          </div>
-        </div>
 
-        <div class="tile is-parent is-8" id="search-results">
-            <article class="tile is-child box">
+        <div class="tile is-parent is-8" id="search-results" >
+            <article class="tile is-child box" display="flex">
               <p class="title"></p>
               <div id="msg">
-                <h3>We cannot find that , Please enter something else.</h3>
+                <h3></h3>
             </div>
               <!-- <p class="subtitle">(search results to appear here)</p> -->
-               <div id="msg">
-        <h3>We Don't have the food you gave us. Please order something else if you want .......</h3>
-    </div>
+               <!-- <div id="msg"> -->
+        <!-- <h3>We can not find the food item you gave us. Please try something else.......</h3> -->
+    <!-- </div> -->
 
     <div id="details" >
 
@@ -125,7 +108,36 @@
             </article>
           </div>
         </div>
+
+        <div class= "recents-container"> <!--parent-->
+            <article class="tile is-child box">
+              <div class="content">
+                <p class="title" id="rec-cont-title"></p>
+            
+
+                <div class="content">
+                    <button id="generateButton" class="button is-primary custom-width">Cocktail Generator</button>
+                    <div id="cocktail"></div>
+                    <div id="overlay"></div>
+
+
+                </div>
+              </div>
+            </article>
+
+              
+
+          </div> 
+          
         
+        </div>
+
+      
+        
+
+
+   
+
         <script
         src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
         <script src="./assets/js/script.js"></script>

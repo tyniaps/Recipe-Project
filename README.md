@@ -38,9 +38,14 @@ HTML5, CSS3, Bulma CSS Framework, JavaScript, VS Code and GitHub.
 
 ## Link to Deployed Application
 
+https://tyniaps.github.io/Recipe-Project/
 
 ## Contributors
-GitHub users: viren15152, LuisM1874, yasirjamah123 and tyniaps.
+GitHub Users:<br />
+@viren15152<br />
+@LuisM1874<br />
+@yasirjamah123<br />
+@tyniaps
 
 
 

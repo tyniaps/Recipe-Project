@@ -22,13 +22,12 @@ n/a.
 
 ## Technologies used
 
-TheMealDB API 1:<br />
+TheMealDB API:<br />
 https://www.themealdb.com/<br />
 <br />
 TheCocktailDB API:<br />
 https://www.thecocktaildb.com/api.php<br />
 <br />
-
 Other Technologies:<br />
 HTML5, CSS3, Bulma CSS Framework, JavaScript, VS Code and GitHub.
 

@@ -1,5 +1,5 @@
 # Recipe-Project: "Dine in Delights" 
-## (Group Project 1)
+
 
 ## Description
 "Dine in Delights" is a front end web-application concept which has been designed for food and cocktail enthusiasts. The web application allows the user to replicate restaurant experiences in the comfort of their homes.

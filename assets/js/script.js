@@ -33,7 +33,7 @@ document.getElementById("button").addEventListener('click',()=>{
 })
 
 function details(id){
-    fetch(`https:www.themealdb.com/api/json/v1/1/lookup.php?i=${id}`)
+    fetch(`https://www.themealdb.com/api/json/v1/1/lookup.php?i=${id}`)
     .then(res=>res.json())
     .then(detail => {
         let meal = detail.meals[0]
